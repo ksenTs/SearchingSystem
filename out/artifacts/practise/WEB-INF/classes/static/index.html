@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/findBooks.js"></script>
+</head>
+<body>
+
+
+<form id="form">
+
+    <p>Укажите название:</p>
+    <input type="text" class="input" id="nameBook" name="nameBook"/>
+    <input type="button" id="search" value="Искать"/>
+
+
+</form>
+
+<div id="work">
+    Результаты поиска:
+    <label id="booksNotFound"></label>
+
+        <table cellspacing="2">
+            <thead>
+            <tr>
+                <th>Название книги</th>
+                <th>Автор</th>
+                <th>Издательство</th>
+            </tr>
+            </thead>
+
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+</div>
+
+</body>
+</html>
